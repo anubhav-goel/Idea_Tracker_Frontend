@@ -1,0 +1,40 @@
+.landing {
+	background: url("../../img/idea.jpg") center center/cover no-repeat;
+	height: 100vh;
+}
+
+.landingContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 3.55rem;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.landing .landingContent h1 {
+	position: relative;
+	top: -10rem;
+	font-size: 3rem;
+	color: #fff;
+}
+
+.landing .landingContent p {
+	position: relative;
+	top: -9.8rem;
+	font-size: 1.5rem;
+	font-style: italic;
+	font-weight: 400;
+	color: #fff;
+}
+
+.landing .landingContent .shiftRight {
+	position: relative;
+	top: -9.5rem;
+	left: 9.3rem;
+}

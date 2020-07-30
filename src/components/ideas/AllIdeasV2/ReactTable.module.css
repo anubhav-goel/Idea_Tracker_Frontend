@@ -1,0 +1,37 @@
+.ideas {
+	border: 3px solid #ddd;
+	text-align: center;
+	margin: 1rem 0rem;
+	padding: 0.2rem 0.2rem;
+	width: 100%;
+}
+
+.ideas td,
+.ideas th {
+	border: 1px solid #ddd;
+	padding: 12px;
+}
+
+.ideas tr:nth-child(even) {background-color: #f2f2f2;}
+
+.pagination {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.pages {
+	padding: 0.5rem;
+	margin: 0.25rem;
+	color: #000;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.pageDescription {
+	margin: 0 1rem;
+}
+
+.showPagesList {
+	margin-right: 1rem;
+	padding: 0.35rem;
+}

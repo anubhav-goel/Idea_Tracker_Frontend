@@ -1,0 +1,132 @@
+.ideas {
+	border: 3px solid #ddd;
+	text-align: center;
+	margin: 1rem 0rem;
+	padding: 0.2rem 0.2rem;
+	width: 100%;
+}
+
+.ideas td,
+.ideas th {
+	border: 1px solid #ddd;
+	padding: 12px;
+}
+
+.userInfoModal {
+	padding: 1rem 1.5rem;
+	display: grid;
+}
+
+.userInfoModal .userInfo {
+	text-align: left;
+}
+
+.userInfoModal p,
+.userInfoModal button {
+	padding: 0.5rem;
+	width: 30%;
+	justify-self: right;
+}
+
+.userInfoModal button {
+	margin-top: 0.3rem;
+	margin-bottom: -0.3rem;
+	color: #fff;
+}
+
+.displayInline > * {
+	display: inline;
+	padding: 0.5rem;
+}
+
+.fontStyleItaliac {
+	font-style: italic;
+}
+
+.deleteIdeaModal {
+	text-align: center;
+	padding: 1rem;
+}
+
+.pagination {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.pages {
+	padding: 0.5rem;
+	margin: 0.25rem;
+	color: #000;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.pages:hover {
+	cursor: pointer;
+	background: #ddd;
+}
+
+.active {
+	/* background:rgb(69, 79, 216); */
+	background: rgba(0, 0, 0, 0.795);
+	color: #fff;
+}
+
+.allIdeasPage {
+	max-height: 100vh;
+	overflow: auto;
+}
+
+.allIdeas {
+	margin: 5rem 3rem 0rem 3rem;
+}
+
+.sortableButton {
+	padding: 0.5rem;
+	background: #fff;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.sortableButton:hover {
+	cursor: pointer;
+	background: #ddd;
+}
+
+.upDownSort::after {
+	padding-left: 0.5rem;
+	font-family: FontAwesome;
+	color: black;
+	content: "\f0dc";
+}
+
+.ascending::after {
+	padding-left: 0.5rem;
+	/* content: "\2191"; */
+	font-family: FontAwesome;
+	color: black;
+	content: "\f0de";
+}
+
+.descending::after {
+	padding-left: 0.5rem;
+	/* content: "\2193"; */
+	font-family: FontAwesome;
+	color: black;
+	content: "\f0dd";
+}
+
+.searchForm {
+	text-align: center;
+}
+
+.operationsContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	justify-self: center;
+}
+
+.tableDataOperation {
+	border: none;
+}

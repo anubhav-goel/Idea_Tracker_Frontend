@@ -1,0 +1,91 @@
+.displayNone {
+	display: none;
+}
+
+.submitBtn,
+.deleteBtn {
+	color: #fff;
+	padding: 0.7rem;
+	font-size: 1rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.pageHeader {
+	display: flex;
+	flex-direction: row;
+}
+
+.likeUnlike {
+	display: flex;
+	flex-direction: row;
+	margin-left: 1rem;
+}
+
+.likeUnlike {
+	display: flex;
+	flex-direction: row;
+	margin-left: 1rem;
+	text-align: center;
+	justify-content: center;
+}
+
+.likeUnlike .likeCount {
+	padding: 0 0.25rem;
+	font-size: 1rem;
+	border: none;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	background: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.likeUnlike .likeCount:hover {
+	text-decoration: underline;
+}
+
+.likesModal {
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	justify-content: center;
+	text-align: center;
+	margin: 1rem;
+	/* align-items: center; */
+}
+
+.likesModal > h3 {
+	display: inline-block;
+	font-style: italic;
+	margin-bottom: 1rem;
+}
+
+/* .likesModal ul>*:first-child h4 {
+	background-color: red;
+} */
+
+.likesModal .likesModalList {
+	max-height: 10rem;
+	overflow-y: auto;
+}
+
+.likedBy {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 0.5rem;
+	margin: 0 1rem 0.7rem;
+}
+
+.likesModalClose {
+	margin-top: 1rem;
+	justify-content: center;
+	align-self: center;
+	cursor: pointer;
+}
+
+.deleteIdeaModal {
+	text-align: center;
+	padding: 1rem;
+}

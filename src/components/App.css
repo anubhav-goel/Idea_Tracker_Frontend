@@ -1,0 +1,235 @@
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Utility Classes */
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.p-1 {
+	padding: 1rem 1rem;
+}
+.p-2 {
+	padding: 2rem 2rem;
+}
+.p-3 {
+	padding: 3rem 3rem;
+}
+.py-1 {
+	padding: 1rem 0rem;
+}
+.py-2 {
+	padding: 2rem 0rem;
+}
+.py-3 {
+	padding: 3rem 0rem;
+}
+
+.m-1 {
+	margin: 1rem 1rem;
+}
+.m-2 {
+	margin: 2rem 2rem;
+}
+.m-3 {
+	margin: 3rem 3rem;
+}
+.my-1 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.my-2 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.my-3 {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.my-4 {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+.mx-1 {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.mx-2 {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+.mx-3 {
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+.mCustom1 {
+	margin: 5rem 3rem;
+}
+
+/* Buttons */
+
+.button {
+	display: inline-block;
+	padding: 1rem 1rem;
+	/* border: 2px solid; */
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	margin: 0.5rem 0.5rem;
+	text-decoration: none;
+}
+.button:hover {
+	background-color: rgb(12, 43, 129);
+	color: #ddd;
+}
+
+.button-bg-blue {
+	background-color: rgb(30, 50, 139);
+	color: #fff;
+}
+
+.button-bg-red {
+	background-color: rgb(245, 39, 12);
+	color: #fff;
+}
+
+.button-bg-red:hover {
+	background-color: rgb(201, 72, 55);
+	color: #ddd;
+}
+
+.button-text {
+	border: none;
+	background-color: #fff;
+	padding: 0.3rem;
+	text-decoration: underline;
+}
+
+.button-text:hover {
+	cursor: pointer;
+}
+
+/* Form Input */
+
+.form-group {
+	margin-top: 1rem;
+}
+
+.form-control {
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 80%;
+}
+
+.control-error {
+	border: 1px solid red;
+}
+
+.alert {
+	width: 100%;
+	text-align: center;
+	padding: 0.5rem 1rem;
+	margin: 0 auto;
+	border: none;
+	border-radius: 5px;
+	background: rgb(233, 227, 227);
+	color: #fff;
+}
+
+.alert-SUCCESS {
+	background: green;
+}
+
+.alert-FAILED {
+	background: red;
+}
+
+/* Loader */
+.loader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	margin: -75px 0 0 -75px;
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #3498db;
+	width: 120px;
+	height: 120px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+	from {
+		bottom: -100px;
+		opacity: 0;
+	}
+	to {
+		bottom: 0px;
+		opacity: 1;
+	}
+}
+
+@keyframes animatebottom {
+	from {
+		bottom: -100px;
+		opacity: 0;
+	}
+	to {
+		bottom: 0;
+		opacity: 1;
+	}
+}
+
+/* Cursor */
+.cursorDisabled {
+	cursor: not-allowed;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
